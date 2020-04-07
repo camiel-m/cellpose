@@ -92,7 +92,7 @@ class Cellpose():
         diameter: float (optional, default 30.)
             if set to None, then diameter is automatically estimated if size model is loaded
 
-        diameter: bool (optional, default False)
+        invert: bool (optional, default False)
             invert image pixel intensity before running network
 
         do_3D: bool (optional, default False)
